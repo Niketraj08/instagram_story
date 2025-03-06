@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+body {
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#card{
+    height: 450px;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border:3px solid #000 ;
+    position: relative;
+
+}
+ #storiyan{
+    height: 120px;
+    width: 100%;
+    /* background-color: red; */
+    border-bottom: 1px solid #555;
+    padding: 15px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    
+ }
+ #storiyan::-webkit-scrollbar{
+    display: none;
+}
+
+ .story{
+    /* background-color: blue; */
+    border: 3px solid red;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 5px;
+ }
+ .story img {
+    height: 100%;
+    width: 100%;
+    /* border-radius: 50 %; */
+    object-fit: cover;
+    object-position: center ;
+ }
+
+#full-screen{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* background-color: red; */
+    background-size: cover;
+    background-position: center ;
+    display: none;
+}
+  h1{
+    /* font-size: 20px; */
+    margin: 10px 10px 0;
+    /* font-weight: 00; */
+    color: rgb(226, 16, 16);
+    font-family: sans;
+  }
